@@ -1,0 +1,23 @@
+@media (max-width: 1200px) {
+    .about_img_block {
+        width: 760px;
+    }
+
+    .about_img {
+        width: 750px;
+    }
+
+    .contact_img {
+        width: 750px;
+    }
+
+
+}
+
+@media (max-width: 767px) {
+    .menu {
+        &-item {
+            font-size: 20px;
+        }
+    }
+}
