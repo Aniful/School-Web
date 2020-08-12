@@ -10,12 +10,12 @@
   align-items: center;
   justify-content: space-around;
   min-width: 100%;
-  background-color: black;
 
   .logo {
     width: 159.85px;
     height: 38.27px;
   }
+
 }
 
 .menu {
@@ -187,6 +187,11 @@
     left: 0;
     bottom: -220px;
     z-index: -1;
+  }
+
+  .container {
+    display: flex;
+    justify-content: center;
   }
 }
 

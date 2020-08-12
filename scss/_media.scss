@@ -1,4 +1,30 @@
 @media (max-width: 1439px) {
+  body {
+    min-width: 100%;
+  }
+
+  .section-about,
+  .section-project,
+  .section-courses,
+  .section-advice,
+  .section-price,
+  .section-contact {
+    min-width: 100%;
+  }
+
+  .footer {
+    min-width: 100%;
+
+    .footer-bot {
+      min-width: 100%;
+    }
+  }
+
+
+  .about,
+  .contact {
+    right: 9%;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -13,4 +39,8 @@
   .contact_img {
     width: 750px;
   }
+}
+
+@media (max-width: 1023px) {
+  .haeder-btn {}
 }
